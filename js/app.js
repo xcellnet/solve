@@ -26,9 +26,14 @@ function MyController($scope) {
     'Setsuko Minger',
     'Aretha Paige'];
     
+    $scope.search = '';
+    var regex;
+    $scope.$watch('search', function (value) {
+        regex = new RegExp('\\b' + escapeRegExp(value), 'i');
+    });
+    
     $scope.filterBySearch = function(name) {
         if (!$scope.search) return false;
-        var regex = new RegExp('\\b' + escapeRegExp($scope.search), 'i');
         return regex.test(name);
     };
 }

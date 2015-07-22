@@ -17,7 +17,7 @@
                                 <h1 class="page-header">Solve</h1>
 								<P>My Tag Line for Solve</P>
 							<!-- Begin app -->
-								<div ng-app="MyApp">
+								<div ng-app>
 								<div ng-controller="MyController">
                                     <form role="form">
                                         <div class="form-group input-group">
@@ -33,7 +33,7 @@
 											</li>
 										</ul>
 								</div>
-								</div>
+							</div>	
 							<!-- end app -->
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->
@@ -52,5 +52,6 @@
 
     </div>
     <!-- /#wrapper -->
-
+	<!-- App Controllers -->
+	<script src="/js/app.js"></script>
 <?php include 'footer.php';?>

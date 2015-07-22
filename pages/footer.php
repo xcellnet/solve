@@ -13,8 +13,8 @@
 	<!-- Angular CDN-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 	
-	<!-- App Controller -->
-    <script src="../js/controllers.js"></script>
+
+
 
 </body>
 

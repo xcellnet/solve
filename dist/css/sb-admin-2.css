@@ -375,3 +375,7 @@ table.dataTable thead .sorting:after {
   margin: 40px 0 20px;
   border-bottom: transparent;
 }
+.tag-heading {
+  text-align:center;
+  margin-top: 15%;
+}

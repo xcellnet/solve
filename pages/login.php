@@ -37,8 +37,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
+					<div class="tag-heading">
 					<h1 class="page-header">Solve</h1>
 					<P>My Tag Line for Solve</P>
+					</div>
                 <div class="login-panel panel panel-default">
 				
                     <div class="panel-heading">
