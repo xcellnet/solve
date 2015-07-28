@@ -379,3 +379,10 @@ table.dataTable thead .sorting:after {
   text-align:center;
   margin-top: 15%;
 }
+.skill {
+    font-size: 12px;
+}
+.profile_text {
+  text-align:left;
+  font-size: 11px;
+}

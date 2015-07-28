@@ -105,10 +105,10 @@ app.controller('MainCtrl', function($scope) {
         {
       name: "Julia Lyman",
       tags: [
-        "sewing",
-        "needle point",
-        "Car Repair",
-        "scubba"
+        "hardware",
+        "software",
+        "PHP",
+        "Javascript"
       ],
       uid: 9,
       img: '/solve/img/profile/11700962_10207249629028363_6849408457103841997_n.jpg'
